@@ -4,7 +4,7 @@
 // 782 -> 8
 // 918 -> 1
 
-Console.WriteLine("введите трхзначное число:");
+Console.WriteLine("введите трёхзначное число:");
 int number = Convert.ToInt32(Console.ReadLine());
 int result = ((number % 100) - (number % 10))/10;
 

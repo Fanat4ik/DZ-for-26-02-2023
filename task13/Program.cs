@@ -11,9 +11,9 @@ for (int i=1; (number/i) >= 100; i=i*10)
 {
     result = (int)number/(int)i;
 }
-result = result % 10;
-if(result>=1)
+if(result>99)
 {
+    result = result % 10;
     Console.WriteLine("третья цифра:" + result);
 }
 else
